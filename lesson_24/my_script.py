@@ -6,7 +6,7 @@ import streamlit as st
 df=pd.read_csv("Advertising_F.csv")
 st.title("Advertising Dashboard by City Michael Frasketi")
 
-st.sidebar.head("Filters")
+st.sidebar.header("Filters")
 x_var=st.selectbox("X axis",["TV","raido","newspaper"])
 
 #show scatter plot
